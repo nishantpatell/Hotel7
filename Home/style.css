@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    margin: 0px;
+    background-image: linear-gradient(180deg, rgb(240, 190, 104) 0%, rgba(255,255,255,1) 450px);
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    height:3000px;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: rgb(167, 167, 167);
+  }
+
+  .login-page{
+    display: flex;
+    width: max-content;
+    padding: 100px;
+    margin: right;
+  }
+  .form{
+   background-color: white;
+   /* max-width: 350px; */
+   /* position:absolute;
+   top: 100px;
+   right: 10px;
+   height: auto;
+   margin: auto;
+   padding: 30px 30px; */
+   border-radius: 10px;
+   border: 3px solid black;
+   text-align: center;
+  } 
+  label[value = "Label"]{
+    color: rgb(25, 94, 36);
+    text-align: center; 
+  }
+  input[attribute = "login-info"]{
+    font-family: arial;
+    background:rgb(235, 235, 235);
+    width: 250px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    font-size: 10pt;
+    border: none;
+  }
+  input[value = "Login"]{
+    background-color: rgb(3, 87, 243);
+    color: white;
+    border: none;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+  }
+
+.topBoxStuff{
+    position: absolute;
+    top: 400px;
+    padding: 25px;
+}
+
+a{
+    height: 56px;
+
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: black;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 56px;
+    text-decoration: none;
+    color: #000000;
+
+    margin: 34px;
+    cursor: pointer;
+}
+
+
+h3{
+    /* height: 20px; */
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: black;
+    font-weight: bold;
+    font-size: 20px;
+    /* line-height: 20px; */
+    text-decoration: none;
+    color: #000000;
+    margin: 0px;
+}
+
+p{
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.navBar{
+    width: 100%;
+    justify-content: right;
+    display: flex;
+}
